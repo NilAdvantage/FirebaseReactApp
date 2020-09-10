@@ -6,7 +6,6 @@ class Welcome extends React.Component {
     super(props);
     this.state = {};
   }
-
   logout() {
     Firebase.auth().signOut();
   }
