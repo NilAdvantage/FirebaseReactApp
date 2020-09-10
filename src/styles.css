@@ -1,0 +1,26 @@
+* {
+  font-family: "Lucida Console", sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(yellow, green);
+  justify-content: center;
+}
+
+.Header {
+  font-family: "Lucida Console", "Roboto", sans-serif;
+}
+
+.Login {
+  background-color: cyan;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Lucida Console";
+}
