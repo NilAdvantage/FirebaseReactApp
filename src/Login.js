@@ -20,7 +20,7 @@ class Login extends React.Component {
       .auth()
       .signInWithEmailAndPassword(this.state.email, this.state.password)
       .then((u) => {
-        console.log(u);
+        alert(u);
         if (this.state.count >= 3) {
           alert("Your account has been locked");
         } else {
@@ -38,6 +38,7 @@ class Login extends React.Component {
       .createUserWithEmailAndPassword(this.state.email, this.state.password)
       .then((u) => {
         alert(u);
+        alert("Congratulations User Has Been Registered");
       })
       .catch((err) => {
         alert(err);
